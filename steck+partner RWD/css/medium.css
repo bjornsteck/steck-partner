@@ -1,0 +1,62 @@
+/* MEDIUM.CSS */
+
+@media only screen and (min-width: 768px) {
+
+	.medium-6 {
+		width: 50%;
+	}
+
+	.medium-4 {
+		width: 33.33%;
+	}
+
+	/* HEADER */ 
+
+	header img {
+		width: 325px;
+	}
+
+	/* NAV */
+
+	nav button {
+		display: none;
+	}
+
+	nav ul {
+		display: block;
+	}
+
+	nav li {
+		width: 25%;
+		float: left;
+	}
+
+	/* MAIN */ 
+
+	main h1 {
+		font-size: 1.75rem;
+	}
+
+	main h2 {
+		font-size: 1.35rem;
+	}
+
+	main h3 {
+		font-size: 1.15rem;
+	}
+
+	main p {
+		max-width: 300px;
+	}
+
+	/* FOOTER */ 
+
+	footer img {
+		width: 325px;
+	}
+
+	.project-limited {
+		width: 666px;
+	}
+
+} /* end of media query */

@@ -1,0 +1,55 @@
+/* LARGE.CSS */
+
+@media only screen and (min-width: 1024px) {
+	
+	.large-3 {
+		width: 25%;
+	}
+
+	.large-4 {
+		width: 33.33%;
+	}
+
+	/* HEADER */
+
+	header img {
+		width: 500px;
+	}
+
+	/* NAV */
+
+	nav ul {
+		margin-left: 2vw;
+	}
+
+	nav li {
+		width: auto;
+	}
+
+	nav a {
+		padding: .7rem 1rem;
+	}
+
+	.project-limited {
+		width: 999px;
+	}
+
+	/* MAIN */ 
+
+	main h1 {
+		font-size: 2rem;
+	}
+
+	main h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	main p {
+		max-width: 400px;
+	}
+
+} /* end of media query */

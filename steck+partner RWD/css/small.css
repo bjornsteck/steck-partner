@@ -1,0 +1,396 @@
+/* SMALL.CSS */
+
+html {
+	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #B9B9B9;
+}
+
+/* GRID RULES */ 
+
+.row {
+	clear: both;
+}
+
+.limited {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.column {
+	float: left;
+	padding: 0 2vw;
+	margin: 0 0 0.75rem 0;
+}
+
+.img-col {
+	float: left;
+}
+
+.small-12 {
+	width: 100%;
+}
+
+.small-6 {
+	width: 50%;
+}
+
+/* HEADER */
+
+header {
+	background-color: #fff;
+}
+
+header img {
+	float: left;
+	width: 250px;
+	height: auto;
+	margin: 1rem 0 .3rem 0; 
+}
+
+/* NAV */
+
+button#hamburgerBtn {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 2.4rem;
+	cursor: pointer;
+	padding: 0 30px 0 2vw;
+}
+
+nav {
+	background-color: #0F0F0F;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	padding: .8rem 0;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li.active {
+	background-color: #808080;
+}
+
+nav a:hover {
+	background-color: rgba(255,255,255,0.25);
+	color: #fff;
+}
+
+nav ul.open {
+	display: block;
+}
+
+nav ul {
+	display: none;
+}
+
+/* MAIN */
+
+main img {
+	width: 100%;
+	height: auto;
+}
+
+main h1, main h2, main h3, main p, main a {
+	margin: 1rem auto;
+}
+
+main h1, main h2, main h3 {
+	text-align: center;
+}
+
+main h1 {
+	font-size: 1.35rem;
+}
+
+main h2 {
+	font-size: 1.15rem;
+}
+
+main h3 {
+	font-size: 1.05rem;
+}
+
+main p {
+	text-align: left;
+	min-width: 100px;
+	max-width: 225px;
+}
+
+main button {
+	margin-left: 10vw;
+	margin-bottom: 2rem;
+	padding: .5rem;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 3px 5px 10px rgba(50,50,50,0.3);
+	background-color: #484c57;
+}
+
+main button a {
+	color: #fff;
+}
+
+.text-container {
+	background-color: #c7b29c;
+	display: inline-block;
+	width: 100%;
+	padding: 2rem;
+	margin-top: -4px;
+	margin-bottom: -4px;
+}
+
+.index-container {
+	background-color: #cdcdcd;
+	display: inline-block;
+	width: 100%;
+	padding: 2rem;
+	margin-top: -4px;
+	margin-bottom: -4px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #484c57;
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+footer h3 {
+	font-style: normal;
+	text-transform: up;
+	margin: 1rem 0 .3rem 0;
+}
+
+footer p {
+	font-style: normal;
+}
+
+footer img {
+	width: 250px;
+	height: auto;
+	margin: 1rem 0 .3rem 2vw;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.tel, .email {
+	font-style: italic;
+}
+
+/* PAGE SPECIFIC 
+
+INDEX.HTML (WILLKOMMEN) */
+
+.index-description {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	height: 50px;
+	width: 200px;
+	padding: 0 .5rem;
+	background-color: rgba(255,255,255,.6);
+	color: #000;
+}
+
+.index-description p {
+	text-align: center;
+}
+
+/* SLIDESHOW */
+
+.mySlides {
+	display: none;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: 0;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .3}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .3}
+	to {opacity: 1}
+}
+
+/* PROJEKTE.HTML + CHILDREN */
+
+.project-col {
+	float: left;
+	max-height: 450px;	
+	position: relative;
+	left: 0;
+}
+
+.project-col-half {
+	float: left;
+	max-height: 225px;	
+	position: relative;
+	left: 0;
+}
+
+.project-img {
+	height: 100%;
+	width: auto;	
+}
+
+.project-img-half {
+	max-height: 225px;
+	max-width: 333px;
+	height: 100%;
+	width: auto;	
+}
+
+.project-limited {
+	max-width: 999px;
+	margin: 0 auto;
+}
+
+.project-description {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	height: 50px;
+	width: 200px;
+	padding: 0 .5rem;
+	background-color: rgba(255,255,255,.6);
+	color: #000;
+}
+
+.project-description:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.project-despcription p {
+	text-align: center;
+}
+
+/* TEAM */ 
+
+.team-description {
+	margin-top: .5rem;
+}
+
+.team-description h3, .team-description p {
+	height: 2.25rem;
+	text-align: center;
+}
+
+/* KONTAKT */
+
+.contact-info h2, .contact-info p {
+	font-style: normal;
+	text-align: left;
+	margin: .5rem 0;
+}
